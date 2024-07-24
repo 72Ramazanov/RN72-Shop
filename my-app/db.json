@@ -1,0 +1,46 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "Iphone 15pro",
+      "price": "100000p",
+      "year": 2023,
+      "image": "/assets/images/iphone15.png",
+      "configure": {
+        "memory": "128gb",
+        "CPU": "intel",
+        "RAM": "8gb",
+        "screen": "OLED"
+      }
+    },
+    {
+      "id": "2",
+      "title": "macBook Pro",
+      "price": "100000p",
+      "year": 2023,
+      "image": "/assets/images/macBook.jpg",
+      "configure": {
+        "memory": "128gb",
+        "CPU": "intel",
+        "RAM": "8gb",
+        "screen": "OLED"
+      }
+    }
+  ],
+  "basket": [
+    {
+      "id": "2",
+      "title": "macBook Pro",
+      "price": "100000p",
+      "year": 2023,
+      "image": "/assets/images/macBook.jpg",
+      "configure": {
+        "memory": "128gb",
+        "CPU": "intel",
+        "RAM": "8gb",
+        "screen": "OLED"
+      },
+      "quantity": 1
+    }
+  ]
+}

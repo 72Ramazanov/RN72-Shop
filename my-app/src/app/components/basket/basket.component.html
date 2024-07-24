@@ -1,0 +1,23 @@
+
+@for (item of basket; track $index) {
+<div class="container">
+    <mat-card class="example-card" >
+        <mat-card-title>{{item.title}}</mat-card-title>
+        <img class="image" mat-card-image src="{{item.image}}" />
+        <mat-card-content>
+            <p>Price: {{item.price }}</p>
+            <p>Year: {{item.year}}</p>
+            <p>Memory: {{item.configure.memory}}</p>
+            <p>RAM: {{item.configure.RAM}}</p>
+            <p>Screen: {{item.configure.screen}}</p>
+            <p>CPU: {{item.configure.CPU}}</p>
+    
+        </mat-card-content>
+        <mat-card-actions>
+            <button class="button" mat-flat-button color="primary" (click)="minusItemFromBasket(item)">-</button>
+            <p>Колво: {{item.quantity}}</p>
+            <button class="button" mat-flat-button color="primary" (click)="plusItemFromBasket(item)">+</button>
+        </mat-card-actions>
+        </mat-card>
+    </div>
+}

@@ -1,0 +1,22 @@
+
+<div class="container" style="display: inline;">
+  <mat-card class="exaple-card mat-card" appearance="outlined" style="align-items:center">
+    <mat-card-title style="font-weight: bolder; text-align: center">{{product.title}}</mat-card-title>
+    <img class="image" style="width: 400px; " src="{{ product.image }}" />
+    <mat-card-content>
+      <p>Price: {{ product.price}}</p>
+      <p>Year: {{product.year}} </p>
+      <p>CPU: {{product.configure.CPU}}</p>
+      <p>Screen: {{product.configure.screen}}</p>
+      <p>Memory: {{product.configure.memory}}</p>
+      <p>RAM: {{product.configure.RAM}}</p>
+    </mat-card-content>
+    <mat-card-actions>
+      <button class="button" mat-flat-button>В Корзину</button>
+    </mat-card-actions>
+  </mat-card>
+</div>
+    
+
+    
+    
